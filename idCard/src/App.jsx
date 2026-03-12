@@ -2,16 +2,22 @@
 function Info() {
   return (
     <header className="info">
+      <div className="photo--info">
+      </div>
+
       <h1 className="info--name">Awosanya Ifeoluwa</h1>
       <h4 className="info--role">Frontend Developer</h4>
       <div className="info--buttons">
         <button className="btn-email">
           <i className="fa-solid fa-envelope"></i>{" "}
-          <a  className="links linka" href="mailto:awosanyavictor9@gmail.com">Email</a>
+          <a className="links linka" href="mailto:awosanyavictor9@gmail.com">
+            Email
+          </a>
         </button>
         <button className="btn-linkedin">
           <i className="fa-brands fa-linkedin"></i>{" "}
-          <a className="links"
+          <a
+            className="links"
             href="https://www.linkedin.com/in/awosanya-ifeoluwavictor/"
             target="_blank"
             rel="noopener noreferrer"

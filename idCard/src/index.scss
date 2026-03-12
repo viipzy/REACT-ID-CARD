@@ -154,3 +154,14 @@ body {
     }
   }
 }
+
+.photo--info{
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url(./assets/profile.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
