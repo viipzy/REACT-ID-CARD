@@ -1,0 +1,156 @@
+:root {
+  --primary-glow: #aa3bff;
+  --card-bg: rgba(18, 18, 22, 0.95);
+  --text-main: #FFFFFF;
+  --text-dim: #a1a1aa;
+  --accent-gold: #f3bf99;
+}
+
+body {
+  background-color: #0f0f12;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(170, 59, 255, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(80, 147, 226, 0.15) 0px, transparent 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-container {
+  width: 350px;
+  background: var(--card-bg);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+
+  // Premium accent line at the top
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-glow), #5093e2);
+  }
+}
+
+.info {
+  text-align: center;
+  padding: 40px 0 20px;
+
+  &--photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1f1f23;
+    outline: 2px solid var(--primary-glow);
+    margin-bottom: 16px;
+    box-shadow: 0 0 20px rgba(170, 59, 255, 0.3);
+  }
+
+  &--name {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 0;
+    color: var(--text-main);
+  }
+
+  &--role {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent-gold);
+    margin: 4px 0 20px;
+  }
+
+  &--buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 35px;
+
+    button {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      font-family: 'Poppins';
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      &.btn-email {
+        background: #FFFFFF;
+        color: #16171d;
+        &:hover { background: #e2e2e2; }
+      }
+
+      &.btn-linkedin {
+        background: #5093E2;
+        color: white;
+        &:hover { background: #3d7cc7; }
+      }
+    }
+  }
+}
+
+.card-content {
+  padding: 20px 35px 30px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-main);
+    margin-bottom: 6px;
+  }
+
+  p {
+    font-size: 11.5px;
+    line-height: 1.6;
+    color: var(--text-dim);
+    font-weight: 300;
+    margin-bottom: 18px;
+  }
+}
+
+.links {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.linka{
+  color: black;
+}
+.footer {
+  background: #161619;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+  i {
+    color: #918E9B;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      color: var(--primary-glow);
+      transform: translateY(-2px);
+    }
+  }
+}
