@@ -3,6 +3,7 @@ function Info() {
   return (
     <header className="info">
       <div className="photo--info">
+    
       </div>
 
       <h1 className="info--name">Awosanya Ifeoluwa</h1>
