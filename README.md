@@ -8,8 +8,8 @@ A sleek, premium, and responsive digital business card built with **React** and 
 
 ---
 ## Screenshots
-! [Desktop Screen](./src/assets/screenshots/desktop.png)
-! [Mobile Screen](./src/assets/screenshots/mobile.png)
+! [Desktop Screen](./idCard/src/assets/screenshots/desktop.png)
+! [Mobile Screen](./idCard/src/assets/screenshots/mobile.png)
 
 ---
 
