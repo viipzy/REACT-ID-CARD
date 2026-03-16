@@ -1,16 +1,99 @@
-# React + Vite
+# Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, premium, and responsive digital business card built with **React** and **Vite**. This project features glassmorphism design, professional typography, and high-end SCSS styling.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Check out the live site here:** [https://react-id-card.vercel.app/]
 
-## React Compiler
+---
+## Screenshots
+[Desktop Screen](./src/assets/screenshots/desktop.png)
+[Mobile Screen](./src/assets/screenshots/mobile.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **High-End Design:** Utilizes glassmorphism, radial gradients, and subtle glow effects for a premium feel.
+* **Responsive Layout:** Fully optimized for mobile, tablet, and desktop viewing.
+* **Modern Tech Stack:** Built with Vite for lightning-fast development and optimized production builds.
+* **Aesthetic Typography:** Integrated with Google Fonts (Poppins) for a professional look.
+* **Accessible UI:** Semantic HTML5 and clean component architecture.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** [React.js](https://reactjs.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Styling:** [SCSS / SASS](https://sass-lang.com/)
+* **Icons:** [Font Awesome](https://fontawesome.com/)
+* **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 📂 Project Structure
+
+```text
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images and profile photos
+│   ├── components/      # Functional React components (Info, About, etc.)
+│   ├── App.jsx          # Main component assembly
+│   ├── main.jsx         # React entry point
+│   └── index.scss       # Global and premium styles
+├── index.html           # HTML entry point
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration
+
+```
+
+---
+
+## ⚙️ Local Setup
+
+To run this project on your local machine, follow these steps:
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+```
+
+
+2. **Navigate into the project directory:**
+```bash
+cd your-repo-name
+
+```
+
+
+3. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+4. **Start the development server:**
+```bash
+npm run dev
+
+```
+
+
+5. **Open your browser:**
+Navigate to `http://localhost:5173` to see the magic!
+
+---
+
+## 📝 Author
+
+**Awosanya Ifeoluwa**
+
+* Frontend Developer
+* [LinkedIn](https://www.linkedin.com/in/awosanya-ifeoluwavictor/)
+* [GitHub](https://github.com/viipzy)
+
+---
