@@ -36,16 +36,21 @@ A sleek, premium, and responsive digital business card built with **React** and 
 ## 📂 Project Structure
 
 ```text
-├── public/              # Static assets
+├── public/              
 ├── src/
-│   ├── assets/          # Images and profile photos
-│   ├── components/      # Functional React components (Info, About, etc.)
-│   ├── App.jsx          # Main component assembly
-│   ├── main.jsx         # React entry point
-│   └── index.scss       # Global and premium styles
-├── index.html           # HTML entry point
-├── package.json         # Project dependencies and scripts
-└── vite.config.js       # Vite configuration
+│   ├── assets/          
+│   │   └── Screenshot/      
+│   ├── components/      
+│   │   ├── Info.jsx
+│   │   ├── About.jsx
+│   │   ├── Interests.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx          
+│   ├── main.jsx         
+│   └── index.scss       
+├── index.html           
+├── package.json         
+└── vite.config.js
 
 ```
 
